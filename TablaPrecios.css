@@ -1,0 +1,45 @@
+ h1{
+     color: azure;
+     text-align: center;
+ }
+ body{
+    font-family: 'Playfair Display', serif;
+    background-color: darkorchid;
+ }
+ .Tarea{
+    margin: 0 auto;
+    width: 90%;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.text-center{
+    text-align: center;
+}
+.columna{
+    background:rgb(233, 169, 217);
+    color: black;
+    border: rgb(32, 89, 196);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px rgb(122, 219, 219);
+    width: 20%;
+}
+.Precio{
+    font-size: 30px;
+    color: rgb(153, 16, 16);
+}
+.btn-Precio{
+    background: rgb(192, 134, 221);
+    display: block;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+.btn-Precio:hover{
+    background: rgb(177, 107, 212);
+}
